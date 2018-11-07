@@ -1,0 +1,48 @@
+.alert-float {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.table-font-small,
+.custom-select {
+    font-size: 13px;
+}
+
+.table-font-small td,
+.table-font-small th {
+    vertical-align: middle;
+}
+
+.modal-lg {
+    max-width: 1080px;
+}
+
+.table-title h3 {
+    display: inline;
+}
+
+/* Datatables */
+div#datatable_wrapper {
+    position: relative !important;
+}
+
+div.dataTables_wrapper div.dataTables_processing {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    margin-left: -100px;
+    margin-top: -26px;
+    text-align: center;
+    /* padding: 1em 0 2.5em !important; */
+    background: #3d9fff !important;
+    color: #fff !important;
+    font-weight: 700 !important;
+    z-index: 999 !important;
+}
+
+#datatable_wrapper .btn-group,
+#datatable_wrapper .btn-group-vertical {
+    position: absolute !important;
+}
